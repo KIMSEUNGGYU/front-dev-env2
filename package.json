@@ -1,0 +1,23 @@
+{
+  "name": "front-dev-env2",
+  "version": "1.0.0",
+  "description": "Vanilla JS, TS / CRA JS, TS 타입스크립트, eslint, prettier 정리 저장소",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KIMSEUNGGYU/front-dev-env2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KIMSEUNGGYU/front-dev-env2/issues"
+  },
+  "homepage": "https://github.com/KIMSEUNGGYU/front-dev-env2#readme",
+  "devDependencies": {
+    "eslint": "^8.1.0"
+  }
+}
