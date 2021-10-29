@@ -6,7 +6,14 @@ module.exports = {
     node: true,
     es6: true
   },
+  plugins: [
+    "prettier",
+  ],
   extends: [
     "eslint:recommended", 
+    "eslint-config-prettier"
   ],
+  rules: {
+    "prettier/prettier": "error"
+  },
 }
