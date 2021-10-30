@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "strict": true, // 엄격한 타입 검사
+      "module": "commonjs", // ts 컴파일시 변환되는 모듈 버전? commonjs: node / amd: 브라우저
+      "moduleResolution": "node", // module 키의 값이 commonjs면 node로 amd이면 classic으로 설정한다.
+      "lib": ["es2015","es2016","es2017","es2018","es2019","es2020"], // 몇버전까지의 자바스크립트를 사용할 수 있게 할지
+      "target": "ES5", // 트랜스파일할 대상 자바스크립트의 버전을 설정
+      "outDir": "./dist",
+      "esModuleInterop": true, // true로 설정 해놓으면 export default가 없는 라이브러리도 * as 를 사용하지 않고 불러올 수 있다
+      "noImplicitAny": true,
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"]
+}
